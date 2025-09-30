@@ -1,10 +1,11 @@
 body{
-    background-color: rgb(187, 171, 187);
+
+    background-color: #F2CCC3;
 }
 
 h1{
 
-    color:rgb(126, 28, 118);
+    color:#ffe6e8;
 }
 
 .completed{
@@ -16,7 +17,7 @@ h1{
 
 .count{
     
-    color:rgb(20, 146, 41)
+    color: #C9E5C7;
 
 }
 
@@ -26,10 +27,68 @@ h1{
     margin-left: 8px;
     background-color: white;
     cursor: pointer;
+    float: right;
 }
 
-.input{
+.header {
+  background-color: #e78f8e;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
 
-    cursor: default;
+input{
 
+  cursor: default;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 25%;
+  padding: 10px;
+  position: center;
+  font-size: 16px;
+}
+
+.theBtn {
+  padding: 10px;
+  width: 15%;
+  background: #ffe6e8;
+  color: black;
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+ul li {
+  width: 90%;
+  cursor: pointer;
+  position: center;
+  padding: 12px 8px 12px 30px;
+  list-style-type: none;
+  background: #ffe6e8;
+  font-size: 20px;
+  transition: 0.2s;
+  margin: 10px;
+  border-radius: 80px;
+    
+ 
+}
+
+ul li:hover {
+  background-color: #ffd1d4;
+  transform: scale(1.02);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.wrapper {
+  border: 3px solid #e78f8e; /* färg och tjocklek på ramen */
+  padding: 20px;             /* utrymme innanför ramen */
+  margin: 20px auto;         /* utrymme runt och centrera innehållet */
+  max-width: 800px;          /* valfri maxbredd så det inte blir för brett */
+  background-color: white;   /* valfri bakgrund så ramen syns bättre */
+  border-radius: 15px;       /* rundade hörn om du vill */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* valfri skugga för effekt */
 }

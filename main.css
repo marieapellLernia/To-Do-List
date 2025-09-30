@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(187, 171, 187);
+}
+
+h1{
+
+    color:rgb(126, 28, 118);
+}
+
+.completed{
+
+    text-decoration: line-through;
+    color:gray;
+    cursor: default;
+}
+
+.count{
+    
+    color:rgb(20, 146, 41)
+
+}
+
+.traschcan{
+
+    font-size:large;
+    margin-left: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.input{
+
+    cursor: default;
+
+}

@@ -23,9 +23,7 @@ h1{
 
 .traschcan{
 
-    font-size:large;
-    margin-left: 8px;
-    background-color: white;
+    font-size:x-large;
     cursor: pointer;
     float: right;
 }
@@ -35,7 +33,7 @@ h1{
   padding: 30px 40px;
   color: white;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 input{
@@ -48,7 +46,7 @@ input{
   padding: 10px;
   position: center;
   font-size: 16px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .theBtn {
@@ -61,7 +59,7 @@ input{
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 ul li {
@@ -74,7 +72,7 @@ ul li {
   font-size: 20px;
   transition: 0.2s;
   margin: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
     
  
 }
@@ -91,6 +89,6 @@ ul li:hover {
   margin: 20px auto;         /* utrymme runt och centrera innehållet */
   max-width: 800px;          /* valfri maxbredd så det inte blir för brett */
   background-color: white;   /* valfri bakgrund så ramen syns bättre */
-  border-radius: 15px;       /* rundade hörn om du vill */
+  border-radius: 10px;       /* rundade hörn om du vill */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* valfri skugga för effekt */
 }
